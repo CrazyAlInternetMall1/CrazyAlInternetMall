@@ -1,0 +1,89 @@
+.masongrid{
+    max-width: 1550px;
+}
+
+/*  ------------------------------------------------
+                        PRICE BTNS
+---------------------------------------------------*/
+
+.pb-container {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 10px;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pbs-container {
+    margin: auto;
+    width: auto;
+    padding: 0;
+}
+
+.pb-container button {
+    border-radius: 0;
+    border: 2.3px solid black;
+    color: black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 160px;
+    margin-right: 10px;
+}
+
+.vl{
+    border-right: 3px solid black;
+}
+
+button :hover {
+    background-color: black;
+    color: white;
+}
+
+/* GRID Media Quieres */
+
+@media screen and (max-width:1700px) {
+    .masongrid {
+        max-width: 1550px;
+    }
+}
+
+
+@media screen and (max-width:1536px) {
+    .masongrid {
+        max-width: 1150px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .masongrid {
+        max-width: 750px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    
+}
+
+/* PB Media Quieries */
+
+@media screen and (min-width: 1265px) {
+    .pb-container {
+        display: flex !important;
+        flex-basis: auto;
+    }
+}
+
+@media screen and (max-width: 586px){
+    .pb-container button {
+            border-radius: 0;
+            border: 2.3px solid black;
+            color: black;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width: 125px;
+        }
+}
